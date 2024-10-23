@@ -5,10 +5,10 @@ import java.util.Map;
 
 public class Minimal {
   public static void main(String[] args) {
-    String s = "password";
+    String password = "password";
     Map<String, String> json = new HashMap<>();
-    json.put(s, "1234");
-    String res = json.get(s);
+    json.put(password, "1234");
+    String res = json.get(password);
     System.out.println(res);
   }
 }
